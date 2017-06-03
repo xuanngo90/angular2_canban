@@ -14,8 +14,8 @@
     max-width: 1024px;
 }
 
-.ng-valid[required],
-.ng-valid.required {
+.ng-valid[required]:not(form),
+.ng-valid:not(form) {
     border-left: 5px solid green;
 }
 
