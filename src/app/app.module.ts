@@ -4,6 +4,7 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
+import { EmployeListComponent } from './employe.component';
 
 
 
@@ -15,7 +16,8 @@ import { AppComponent } from './app.component';
     HttpModule
   ],
   declarations: [
-    AppComponent
+    AppComponent,
+    EmployeListComponent
   ],
   providers: [],
   bootstrap: [AppComponent]
